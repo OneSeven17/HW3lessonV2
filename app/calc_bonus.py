@@ -1,16 +1,5 @@
 def calculate_bonuses(the_sum_of_current_purchase):
-    """
-        calculate_bonuses(900)
-        0...
-        calculate_bonuses(1_000)
-        50...
-        calculate_bonuses(16_000)
-        1120...
-        calculate_bonuses(150_000)
-        15000...
-        calculate_bonuses(1_100)
-        50...
-    """
+
     the_sum_of_previous_purchases = 0
     blue_card_percent = 0.05
     silver_card_percent = 0.07
@@ -33,6 +22,6 @@ def calculate_bonuses(the_sum_of_current_purchase):
 
 print(calculate_bonuses(150_000))
 print(calculate_bonuses(15_000))
-print(calculate_bonuses(1000))
+print(calculate_bonuses(1_000))
 print(calculate_bonuses(900))
-print(calculate_bonuses(1100))
+print(calculate_bonuses(1_100))
