@@ -1,4 +1,4 @@
-from calc_bonus import calculate_bonuses
+from app.Test.calc_bonus import calculate_bonuses
 
 def test_calculate_bonuses():
     result = calculate_bonuses(1_000)
