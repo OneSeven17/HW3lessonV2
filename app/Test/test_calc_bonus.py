@@ -1,5 +1,6 @@
 from calc_bonus import calculate_bonuses
 
+
 def test_calculate_bonuses_0():
     result = calculate_bonuses(900)
 
